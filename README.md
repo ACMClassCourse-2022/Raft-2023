@@ -1,6 +1,6 @@
 # Raft-2023
 
-**注意：**根据 MIT 课程要求，你的 Raft 代码仓库应为**私有（PRIVATE）**类型。
+**注意：** 根据 MIT 课程要求，你的 Raft 代码仓库应为 **私有（PRIVATE）** 类型。
 
 ## Reference
 
@@ -68,7 +68,8 @@ See [Tutorial.md](doc/Tutorial.md) in `doc/`.
 		</tr>
 	</tbody>
 </table>
-For each lab, we will run the test for $`400`$ times. Let $`S`$ be the total score of a lab and $`t`$ be the times you pass. 
+
+For each lab, we will run the test for  $400$ times. Let $S$ be the total score of a lab and $t$ be the times you pass. 
 
 - For a required lab,  your score of this lab will be 
   $$\left\lceil\frac{\max\\{t-200,0\\}}{2}\right\rceil\times 0.01\times S.$$
