@@ -68,7 +68,7 @@ See [Tutorial.md](doc/Tutorial.md) in `doc/`.
 		</tr>
 	</tbody>
 </table>
-For each lab, we will run the test for $ 400 $ times. Let $ S $ be the total score of a lab and $ t $ be the times you pass. 
+For each lab, we will run the test for $`400`$ times. Let $`S`$ be the total score of a lab and $`t`$ be the times you pass. 
 
 - For a required lab,  your score of this lab will be 
   $$\left\lceil\frac{\max\\{t-200,0\\}}{2}\right\rceil\times 0.01\times S.$$
