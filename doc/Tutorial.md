@@ -8,17 +8,19 @@
 
 已知可以正常运行的系统环境：Linux, Mac, WSL2
 
-**请注意，本项目无法在 WSL 1 上正常运行。**如果你使用的 WSL 为 WSL 1 而非 WSL 2，请先[升级你的 WSL 版本](https://learn.microsoft.com/en-us/windows/wsl/install#upgrade-version-from-wsl-1-to-wsl-2)。
+**请注意，本项目无法在 WSL 1 上正常运行。** 如果你使用的 WSL 为 WSL 1 而非 WSL 2，请先[升级你的 WSL 版本](https://learn.microsoft.com/en-us/windows/wsl/install#upgrade-version-from-wsl-1-to-wsl-2)。
+
+你可以使用 [GoLand](https://www.jetbrains.com/go/) 或 [VS Code](https://code.visualstudio.com/) 来编写你的项目。其中，GoLand 是开箱即用的，本文不提供额外帮助；使用 VS Code 的同学需要安装 Go 和相应扩展，见接下来两个部分。
 
 ### 安装 Go
 
 根据 Go [官方指南](https://go.dev/doc/install)安装最新版本即可（本项目最低 Go 版本要求为 1.15）。
 
-项目仓库中已配置好了 GoModule（`src/go,mod` 和 `src/go.sum`），无需额外配置 GoModule 或 GoPath。
+项目仓库中已配置好了 GoModule（`src/go.mod` 和 `src/go.sum`），无需额外配置 GoModule 或 GoPath。
 
-### 配置 IDE
+### 配置 VS Code
 
-1. 使用 VS Code 的同学可以在[插件市场](https://marketplace.visualstudio.com/items?itemName=golang.go)中安装 Go 扩展。
+1. 在[插件市场](https://marketplace.visualstudio.com/items?itemName=golang.go)中安装 Go 扩展。
 
 2. 扩展安装后会提示安装若干 package，默认安装即可。
 
@@ -65,7 +67,7 @@ MIT Lab 页面有很详细的引导，实现前请认真阅读：
 关于具体任务：
 
 - Lab 2：完善 `src/raft` 中的 `raft.go`（如果需要的话可以在 `util.go` 中增加适当的工具函数）；
-- Lab 3：完善 `src/kvraft` 中的 `config.go`， `client.go` 与 `server.go` 三个文件。
+- Lab 3：完善 `src/kvraft` 中的 `common.go`， `client.go` 与 `server.go` 三个文件。
 
 **注意：你不应修改除了上述提到的五个文件以外的其它 Go 语言文件。**
 
