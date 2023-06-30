@@ -6,19 +6,25 @@
 
 > 该部分很多内容和 DHT 项目环境配置相近，也可以结合 [DHT 配置文档](https://github.com/ACMClassCourse-2022/DHT-2023/blob/master/doc/tutorial.md)（Thanks to [@1024th](https://github.com/1024th)）。
 
+### 系统环境
+
 已知可以正常运行的系统环境：Linux, Mac, WSL2
 
 **请注意，本项目无法在 WSL 1 上正常运行。** 如果你使用的 WSL 为 WSL 1 而非 WSL 2，请先[升级你的 WSL 版本](https://learn.microsoft.com/en-us/windows/wsl/install#upgrade-version-from-wsl-1-to-wsl-2)。
 
-你可以使用 [GoLand](https://www.jetbrains.com/go/) 或 [VS Code](https://code.visualstudio.com/) 来编写你的项目。其中，GoLand 是开箱即用的，本文不提供额外帮助；使用 VS Code 的同学需要安装 Go 和相应扩展，见接下来两个部分。
+### IDE 环境
 
-### 安装 Go
+你可以使用 [GoLand](https://www.jetbrains.com/go/) 或 [VS Code](https://code.visualstudio.com/) 来编写你的项目。
+
+其中，GoLand 是开箱即用的，本文不提供额外帮助；使用 VS Code 的同学需要安装 Go 和相应扩展，见接下来两个部分。
+
+#### 安装 Go
 
 根据 Go [官方指南](https://go.dev/doc/install)安装最新版本即可（本项目最低 Go 版本要求为 1.15）。
 
 项目仓库中已配置好了 GoModule（`src/go.mod` 和 `src/go.sum`），无需额外配置 GoModule 或 GoPath。
 
-### 配置 VS Code
+#### 配置 VS Code
 
 1. 在[插件市场](https://marketplace.visualstudio.com/items?itemName=golang.go)中安装 Go 扩展。
 
