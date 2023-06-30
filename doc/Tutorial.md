@@ -8,7 +8,7 @@
 
 已知可以正常运行的系统环境：Linux, Mac, WSL2
 
-**请注意，本项目无法在 WSL 1 上正常运行。**如果你使用的 WSL 为 WSL 1 而非 WSL 2，请先[升级你的 WSL 版本](https://learn.microsoft.com/en-us/windows/wsl/install#upgrade-version-from-wsl-1-to-wsl-2)。
+**请注意，本项目无法在 WSL 1 上正常运行。** 如果你使用的 WSL 为 WSL 1 而非 WSL 2，请先[升级你的 WSL 版本](https://learn.microsoft.com/en-us/windows/wsl/install#upgrade-version-from-wsl-1-to-wsl-2)。
 
 ### 安装 Go
 
