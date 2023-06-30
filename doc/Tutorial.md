@@ -65,7 +65,7 @@ MIT Lab 页面有很详细的引导，实现前请认真阅读：
 关于具体任务：
 
 - Lab 2：完善 `src/raft` 中的 `raft.go`（如果需要的话可以在 `util.go` 中增加适当的工具函数）；
-- Lab 3：完善 `src/kvraft` 中的 `config.go`， `client.go` 与 `server.go` 三个文件。
+- Lab 3：完善 `src/kvraft` 中的 `common.go`， `client.go` 与 `server.go` 三个文件。
 
 **注意：你不应修改除了上述提到的五个文件以外的其它 Go 语言文件。**
 
