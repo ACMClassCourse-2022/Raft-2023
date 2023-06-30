@@ -14,7 +14,7 @@
 
 根据 Go [官方指南](https://go.dev/doc/install)安装最新版本即可（本项目最低 Go 版本要求为 1.15）。
 
-项目仓库中已配置好了 GoModule（`src/go,mod` 和 `src/go.sum`），无需额外配置 GoModule 或 GoPath。
+项目仓库中已配置好了 GoModule（`src/go.mod` 和 `src/go.sum`），无需额外配置 GoModule 或 GoPath。
 
 ### 配置 IDE
 
