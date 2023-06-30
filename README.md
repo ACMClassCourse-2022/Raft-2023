@@ -76,7 +76,7 @@ For each lab, we will run the test for  $400$ times. Let $S$ be the total score 
 
 - For a bonus lab, your score of this lab will be
 
-  $$(\max\\{t-380,0\\})^2\times 0.25\times S.$$
+  $$(\max\\{t-380,0\\})^2\times 0.0025\times S.$$
 
 ## Schedule
 
