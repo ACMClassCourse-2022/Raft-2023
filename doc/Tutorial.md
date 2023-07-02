@@ -46,12 +46,11 @@
 
 ## Go 语言学习
 
-建议使用一天左右的时间粗略阅读官方教程，了解大致语法。后期可以边写边查阅。
+建议使用一天左右的时间粗略阅读官方教程（[英文版](https://go.dev/tour/welcome/1) / [中文版](https://tour.go-zh.org/welcome/1)），了解大致语法。后期可以边写边查阅。
 
-- 英文版：https://go.dev/tour/welcome/1
-- 中文版：https://tour.go-zh.org/welcome/1
+关于并发部分：至少需要理解信道（channel）和互斥锁（`sync.Mutex`）。
 
-关于并发部分：需要理解管道和互斥锁。
+> 推荐学习条件变量（`sync.Cond`）来优化部分轮询操作，见 [Go 文档](https://pkg.go.dev/sync#Cond) 或 [这里](https://geektutu.com/post/hpg-sync-cond.html)。
 
 ## Raft 算法学习
 
@@ -77,12 +76,24 @@ MIT Lab 页面有很详细的引导，实现前请认真阅读：
 
 **注意：你不应修改除了上述提到的五个文件以外的其它 Go 语言文件。**
 
-### 实现辅助文档（Lab 3 部分待补充）
+### 实现辅助文档
 
 * mit 助教总结：<https://thesquareplanet.com/blog/students-guide-to-raft/>
 * mit 助教 Q/A：<https://thesquareplanet.com/blog/raft-qa/>
 * 关于锁的建议：<https://pdos.csail.mit.edu/6.824/labs/raft-locking.txt>
-* 关于 Raft 的结构的建议：<https://zhuanlan.zhihu.com/p/103849249>
+* 关于 Raft 的结构的建议：
+  * https://pdos.csail.mit.edu/6.824/labs/raft-structure.txt
+  * <https://zhuanlan.zhihu.com/p/103849249>
+
+
+## 关于 Lab 3
+
+在写 Lab 3 前，推荐大家先学习一些分布式系统的基本理论知识（特别是一致性模型相关）。可以看看这门课的几次 lecture 的笔记：
+
+- [6.5840 Lecture 1: Introduction](https://pdos.csail.mit.edu/6.824/notes/l01.txt)
+- [6.5840 Lecture 9: Consistency, Linearizability](https://pdos.csail.mit.edu/6.824/notes/l-linearizability.txt)
+
+实现细节参考 Lab 页面的 Hint 与 Raft paper 的 Section 8（<u>最后一段提到的优化方法可以不用实现</u>）。
 
 ## 测试方法
 
