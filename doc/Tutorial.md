@@ -85,6 +85,7 @@ MIT Lab 页面有很详细的引导，实现前请认真阅读：
   * https://pdos.csail.mit.edu/6.824/labs/raft-structure.txt
   * <https://zhuanlan.zhihu.com/p/103849249>
 
+`doc/` 中的[结构图](raft_diagram.pdf)可能对你也有所帮助。
 
 ## 关于 Lab 3
 
