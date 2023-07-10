@@ -69,7 +69,7 @@ fi
 
 # Figure out where we left off
 logs=$(find . -maxdepth 1 -name 'test-*.log' -type f -printf '.' | wc -c)
-success=$(grep -E '^PASS$' test-*.log | wc -l)
+success=$(grep -E '^PASS$' test-*.log 2> /dev/null | wc -l)
 ((failed = logs - success))
 
 # Finish checks the exit status of the tester with the given PID, updates the
