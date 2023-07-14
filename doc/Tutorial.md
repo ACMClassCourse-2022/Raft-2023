@@ -16,13 +16,18 @@
 
 你可以使用 [GoLand](https://www.jetbrains.com/go/) 或 [VS Code](https://code.visualstudio.com/) 来编写你的项目。
 
-其中，GoLand 是开箱即用的，本文不提供额外帮助；使用 VS Code 的同学需要安装 Go 和相应扩展，见接下来两个部分。
-
 #### 安装 Go
 
 根据 Go [官方指南](https://go.dev/doc/install)安装最新版本即可（本项目最低 Go 版本要求为 1.15）。
 
 项目仓库中已配置好了 GoModule（`src/go.mod` 和 `src/go.sum`），无需额外配置 GoModule 或 GoPath。
+
+#### 配置 GoLand
+
+如果使用 WSL，在 GoLand 中需要打开 WSL 中的目录来使用。
+
+1. 配置 Go ROOT（路径为你刚才安装 Go 的路径）。
+2. 在 Raft 仓库中配置 Go Test，测试种类选择 package，路径为 `6.5840/raft`，模式一栏为可以用正则表达式语法匹配相应测试点名称。
 
 #### 配置 VS Code
 

@@ -29,45 +29,41 @@ See [Tutorial.md](doc/Tutorial.md) in `doc/`.
 	<thead>
 		<tr>
 			<th scope="col" style="text-align:center">Part</th>
-			<th scope="col" style="text-align:center">工科</th>
 			<th scope="col" style="text-align:center">ACM Class</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
 			<td style="text-align:center">Lab 2A</td>
-			<td style="text-align:center">30%</td>
-			<td style="text-align:center">15%</td>
+			<td style="text-align:center">20%</td>
 		</tr>
 		<tr>
 			<td style="text-align:center">Lab 2B</td>
-			<td style="text-align:center">50%</td>
-			<td style="text-align:center">25%</td>
+			<td style="text-align:center">30%</td>
 		</tr>
 		<tr>
 			<td style="text-align:center">Lab 2C</td>
-			<td style="text-align:center">extra 10%</td>
-			<td style="text-align:center">25%</td>
+			<td style="text-align:center">30%</td>
 		</tr>
 		<tr>
 			<td style="text-align:center">Lab 2D</td>
-			<td colspan="1" rowspan="3" style="text-align:center">/</td>
-			<td style="text-align:center">extra 5%</td>
+			<td style="text-align:center">extra 3%</td>
 		</tr>
 		<tr>
 			<td style="text-align:center">Lab 3A</td>
-			<td style="text-align:center">15%</td>
+            <td style="text-align:center">extra 4%</td>
 		</tr>
 		<tr>
 			<td style="text-align:center">Lab 3B</td>
-			<td style="text-align:center">extra 5%</td>
+			<td style="text-align:center">extra 3%</td>
 		</tr>
 		<tr>
 			<td style="text-align:center">Code Review</td>
-			<td colspan="2" rowspan="1" style="text-align:center">20%</td>
+			<td colspan="1" rowspan="1" style="text-align:center">20%</td>
 		</tr>
 	</tbody>
 </table>
+
 
 For each lab, we will run the test for  $400$ times. Let $S$ be the total score of a lab and $t$ be the times you pass. 
 
@@ -85,7 +81,6 @@ For each lab, we will run the test for  $400$ times. Let $S$ be the total score 
 		<tr>
 			<th scope="col" style="text-align:center">Week</th>
 			<th scope="col" style="text-align:center">Day</th>
-			<th scope="col" style="text-align:center">工科</th>
 			<th scope="col" style="text-align:center">ACM Class</th>
 		</tr>
 	</thead>
@@ -93,7 +88,7 @@ For each lab, we will run the test for  $400$ times. Let $S$ be the total score 
 		<tr>
 			<td colspan="1" rowspan="7" style="text-align:center">3</td>
 			<td style="text-align:center">7/3</td>
-			<td colspan="2" rowspan="3">
+			<td colspan="1" rowspan="5">
 			<div>1. Learn Golang</div>
 			<div>2. Read extended Raft paper</div>
 			</td>
@@ -106,14 +101,13 @@ For each lab, we will run the test for  $400$ times. Let $S$ be the total score 
 		</tr>
 		<tr>
 			<td style="text-align:center">7/6</td>
-			<td colspan="2" rowspan="2">3. Try to pass Lab 2A</td>
 		</tr>
 		<tr>
 			<td style="text-align:center">7/7</td>
 		</tr>
 		<tr>
 			<td style="text-align:center">7/8</td>
-			<td colspan="2" rowspan="2" style="text-align:center">Break</td>
+			<td colspan="1" rowspan="2" style="text-align:center">Break</td>
 		</tr>
 		<tr>
 			<td style="text-align:center">7/9</td>
@@ -121,16 +115,8 @@ For each lab, we will run the test for  $400$ times. Let $S$ be the total score 
 		<tr>
 			<td colspan="1" rowspan="7" style="text-align:center">4</td>
 			<td style="text-align:center">7/10</td>
-			<td colspan="1" rowspan="4">
-			<div>1. Pass Lab 2A (cont.)</div>
-			<div>2. Pass Lab 2B</div>
-			<div>3. Try Lab 2C (bonus)</div>
-			</td>
-			<td colspan="1" rowspan="5">
-			<div>1. Pass Lab 2A (cont.)</div>
-			<div>2. Pass Lab 2B</div>
-			<div>3. Try to pass Lab 2C</div>
-			</td>
+			<td colspan="1" rowspan="5">1. pass Lab 2A<br />
+			2. try to pass Lab 2B</td>
 		</tr>
 		<tr>
 			<td style="text-align:center">7/11</td>
@@ -143,11 +129,9 @@ For each lab, we will run the test for  $400$ times. Let $S$ be the total score 
 		</tr>
 		<tr>
 			<td style="text-align:center">7/14</td>
-			<td style="text-align:center">Code Review</td>
 		</tr>
 		<tr>
 			<td style="text-align:center">7/15</td>
-			<td colspan="1" rowspan="14" style="text-align:center">Summer Vacation</td>
 			<td colspan="1" rowspan="2" style="text-align:center">Break</td>
 		</tr>
 		<tr>
@@ -156,11 +140,10 @@ For each lab, we will run the test for  $400$ times. Let $S$ be the total score 
 		<tr>
 			<td colspan="1" rowspan="7" style="text-align:center">5</td>
 			<td style="text-align:center">7/17</td>
-			<td colspan="1" rowspan="5">
-			<div>1. Pass Lab 2C (cont.)</div>
-			<div>2. Learn Linearizability</div>
-			<div>3. Try to pass Lab 3A</div>
-			</td>
+			<td colspan="1" rowspan="5">1. debug your code of Lab 2B<br />
+			2. pass Lab 2C (2A &amp; 2B)<br />
+			3. learn something about consistency<br />
+			4. try Lab 3A (bonus)</td>
 		</tr>
 		<tr>
 			<td style="text-align:center">7/18</td>
@@ -184,10 +167,8 @@ For each lab, we will run the test for  $400$ times. Let $S$ be the total score 
 		<tr>
 			<td colspan="1" rowspan="5" style="text-align:center">6</td>
 			<td style="text-align:center">7/24</td>
-			<td colspan="1" rowspan="4">
-			<div>1. Pass Lab 3A (cont.)</div>
-			<div>2. Try Lab 2D &amp; 3B (bonus)</div>
-			</td>
+			<td colspan="1" rowspan="4">1. try Lab 3A (bonus)<br />
+			2. try Lab 2D &amp; 3B (bonus)</td>
 		</tr>
 		<tr>
 			<td style="text-align:center">7/25</td>
